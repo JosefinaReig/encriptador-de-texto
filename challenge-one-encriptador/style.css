@@ -1,0 +1,108 @@
+nav{
+    padding: 30px;
+}
+
+.titulo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color:#0A3871;
+    margin-top: 140px;
+    margin-left: 280px;
+}
+
+.mensaje{
+    margin-top:5px;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    color:#0A3871; 
+    justify-content: center;
+}
+
+.container{ 
+    display:flex; 
+}
+
+.encriptacion{
+    margin-top: 175px;
+    margin-left: 100px;
+}
+
+.signo-recomendacion{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.recomendacion{
+    display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#495057; 
+}
+
+.botones{
+    display: block;
+}
+
+.boton-uno{
+    background:#0A3871;
+    border: none;
+    width:300px;
+    height: 70px;
+    color: whitesmoke;
+    border-radius: 3px;
+    margin-left: 120px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.boton-uno:hover{
+    background: #365EA9;
+    transform: scale(1.1);
+}
+
+.boton-dos{
+    background:#495057;
+    border: none;
+    width:300px;
+    height: 70px;
+    color: whitesmoke;
+    border-radius: 3px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.boton-dos:hover{
+    background: #868E96;
+    transform: scale(1.1);
+}
+
+.encriptacion{
+    background: #CED4DA;
+    padding: 10px;
+    text-align: center;
+}
+
+.encriptacion h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encriptacion p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background: #0A3871;
+    color: white;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
